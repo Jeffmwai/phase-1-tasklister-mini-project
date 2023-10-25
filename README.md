@@ -60,7 +60,26 @@ If you look in the `index.html` file, you will see the following:
 
 ```html
     <form id="create-task-form" action="#" method="POST">
-      <label for="new-task-description">Task description:</label>
+      <label for="new-task-description">Task descriptio
+
+* Build a functioning to-do list application
+* Suppress a default action with `event.preventDefault()`
+
+## Introduction
+
+In this lab, you'll be creating a simple to-do list application that uses
+JavaScript to manipulate the DOM.
+
+Check out the [working demo][example]!
+
+## Lab: Build a Functioning To-Do List Application
+
+Instead of relying on tests, this lab is _deliverable driven_. You will be
+responsible for ensuring that your solution works as intended by testing the
+behavior in the browser.
+
+1. Fork and clone this repository
+2. Open `index.html`n:</label>
       <input type="text" id="new-task-description" name="new-task-description" placeholder="description">
       <input type="submit" value="Create New Task">
     </form>
